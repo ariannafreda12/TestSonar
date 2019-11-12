@@ -1,7 +1,9 @@
 language: java
 jdk:
-   -openjdk8
+- openjdk8
 script: ant build
+
+
 addons:
  sonarcloud:
   organization: ariannafreda12
