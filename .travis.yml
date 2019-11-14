@@ -6,9 +6,9 @@ script: ant build
 
 addons:
  sonarcloud:
-  organization: ariannafreda12
+  organization: "ariannafreda12"
   token:
-   secure: travis encrypt ee145cdfdd8c5318d74b344df6fe817dafe710e1
+   secure: travis encrypt 7c183810c30af91f3a1ae556696dc83df4ed2770
 script:
 -ant build
 -sonar-scanner
