@@ -7,7 +7,7 @@ addons:
  sonarcloud:
   organization: "ariannafreda12"
   token:
-   secure: "travis encrypt 5804bebaeb69cc0a7b6a004cbdd922e5385a683e"
+   secure: "5804bebaeb69cc0a7b6a004cbdd922e5385a683e"
 script:
 -ant build
 -sonar-scanner
